@@ -1,0 +1,30 @@
+{
+  "name": "rechnungsbuttler",
+  "version": "1.0.0",
+  "description": "Downloads invoices from some selected portals (o2.de,server4you.de,...).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/energychain/rechnungsbuttler.git"
+  },
+  "keywords": [
+    "invoice",
+    "rechnung",
+    "download",
+    "server4you",
+    "o2"
+  ],
+  "bin": {
+    "rb-server4you": "./server4you.js",
+    "rb-o2": "./o2.js"
+  },
+  "author": "STROMDAO GmbH <dev@stromdao.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "commander": "^9.3.0",
+    "puppeteer": "^14.2.1"
+  }
+}
